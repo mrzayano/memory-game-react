@@ -32,7 +32,7 @@
 
 
 .flip-card {
-  background-color: transparent;
+  /* background-color: transparent; */
   perspective: 1000px;
 }
 
@@ -76,5 +76,22 @@
   display: grid;
   place-items: center;
   font-size: 50px;
-  border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 4px;
+  }
+  .flip-card {
+    height: 70%;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    
+    font-size: 30px;
+  }
+
 }
