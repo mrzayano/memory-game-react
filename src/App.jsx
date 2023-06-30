@@ -117,7 +117,7 @@ function App() {
 
   return (
     <main >
-      <h1>Memory Game in react</h1>
+      <h1>puzzle games for Braitenx</h1>
       <div className="container">
         {pieces.map((data, index) => (
           <div
