@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /*
+Allow: /termsofservice.html
+Allow: /privacypolicy.html
+Sitemap: https://braitenx.com/sitemap.xml
